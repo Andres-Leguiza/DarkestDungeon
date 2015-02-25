@@ -1,0 +1,35 @@
+
+#acordeonItems .locations {
+	border-top: solid 1px #ccc;
+	cursor: pointer;
+	
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+ }
+ 
+ #acordeonItems .locations:hover {
+	background-color: #ccc;
+ }
+ 
+ #acordeonItems .locations .location {
+	background-image: url(up-arrow.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	margin-right: 10px;
+	text-align: center;
+ }
+ 
+ #acordeonItems .locations .description {
+	display: none;
+	padding: 10px 0 0 40px;
+ }
+ 
+ .acordeonActivado, .acordeonActivado:hover {
+	background-color: #A3E0FF !important;
+ }
+ 
+ .acordeonActivado .location {
+	font-weight: bolder;
+ }
